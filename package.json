@@ -2,8 +2,8 @@
   "name": "portfolio-tailwind",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "npm run vite dev",
+    "build": "npm run vite build",
     "start": "npm run dev",
     "lint": "eslint . --ext .js,.ts,.vue",
     "lint:debug": "eslint ./src --debug",
