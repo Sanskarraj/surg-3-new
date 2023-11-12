@@ -10,6 +10,9 @@
     "lint:fix": "eslint . --ext .js,.ts,.vue --fix",
     "prepare": "husky install"
   },
+  "engines": {
+  "node": "14.21.3"
+},
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/container-queries": "^0.1.1",
