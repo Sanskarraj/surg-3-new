@@ -1,4 +1,7 @@
-buildCommand: |
-  npm install
-  npm run build
+# render.yaml
 
+# Build command to install dependencies
+buildCommand: npm install
+
+# Start command to run the development server
+startCommand: npm run dev
